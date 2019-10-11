@@ -137,7 +137,94 @@ b, strong {
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
 }
+.feature_item{
+  padding: 30px 35px;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  background: #fff;
+  margin-bottom: 30px;
+}
 
+.feature_item_color{
+  /* padding: 30px 35px; */
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  background: #44d4ff33;
+  margin-bottom: 30px;
+}
+.feature_item_color img {
+  width: 100%;
+  padding: 15%;
+}
+.project_area{
+  background-color: #ffc200;
+}
+.align{
+  padding-top: 5%;
+  text-align: center;
+}
+.feature_item_color h5{
+  text-align: center;
+  padding-bottom: 10%;
+}
+.projects_item img{
+  padding-bottom: 3%;
+}
+.portfolio-text p{
+  text-align: justify;
+}
+.banner_btn_t{
+  background: transparent;
+  color: #212529;
+  margin: 0.5em;
+  padding: 0.8em 1em;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+  display: inline-block;
+  border: 2px solid #212529;
+  transition: all 500ms ease;
+  text-align: justify;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.p-7{
+  padding-bottom: 7%;
+}
+.blog-entry{
+  -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-entry .blog-entry-text{
+  border-top: none;
+    padding: 30px;
+}
+.white{
+  background-color: white;
+}
+.img16{
+  height: 160px;
+}
+.social-links{
+  width: 100%;
+}
+.social-links li{
+  display: flex;
+  justify-content: space-between;
+}
+.social-links li i{
+  font-size: larger;
+  color: white;
+}
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -175,7 +262,7 @@ b, strong {
   transition: transform 200ms linear;
 }
 .navbar[class*="-unpinned"] {
-  transform: translate(0, -150%);
+  /* transform: translate(0, -150%); */
 }
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
@@ -185,6 +272,7 @@ b, strong {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
+  height: 10%;
 }
 
 .navbar-brand {
