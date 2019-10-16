@@ -158,6 +158,7 @@ b, strong {
 }
 .project_area{
   background-color: #ffc200;
+  padding-bottom: 3%;
 }
 .align{
   padding-top: 5%;
@@ -542,7 +543,10 @@ b, strong {
 .contact-info p, .contact-info a {
   color: #f7f3f3;
 }
-
+.about{
+  text-align: justify;
+  padding-right: %;
+}
 .social-links .uil {
   color: #f7f3f3;
   font-size: 20px;
@@ -551,6 +555,33 @@ b, strong {
 }
 .social-links .uil:hover {
   color: #ffc200;
+}
+.box-contact{
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  padding: 5%;
+}
+.box-contact h2{
+  font-size: 16px;
+  padding: 3%;
+}
+.box-contact i{
+  font-size: 30px;
+  color: #ffc200;
+}
+.link{
+  padding: 4%;
+}
+.box-contact .link i{
+  font-size: 20px;
+  color: #333333;
+}
+.title-contact h2{
+  text-align: center;
+  padding: 8%;
+  /* padding-bottom: 5%; */
+}
+.m4{
+  margin-bottom: 4%;
 }
 
 @media (min-width: 1270px) {
