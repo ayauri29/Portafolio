@@ -163,6 +163,7 @@ b, strong {
 .align{
   padding-top: 5%;
   text-align: center;
+  padding-bottom: 3%;
 }
 .feature_item_color h5{
   text-align: center;
@@ -277,6 +278,7 @@ b, strong {
 }
 
 .navbar-brand {
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -545,7 +547,25 @@ b, strong {
 }
 .about{
   text-align: justify;
-  padding-right: %;
+}
+.first{
+  display: inline-block;
+    color: #ffffff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #434cbf;
+    border-radius: 6px;
+}
+.second{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #5a5858;
+  text-align: justify;
+}
+.flex-center{
+  display: flex;
+    justify-content: center;
 }
 .social-links .uil {
   color: #f7f3f3;
