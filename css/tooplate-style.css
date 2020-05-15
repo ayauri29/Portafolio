@@ -604,6 +604,25 @@ b, strong {
   margin-bottom: 4%;
 }
 
+.btnLg{
+background-color: white;
+color: #434cbf;
+border: 1px solid #434cbf;
+font-weight: bold;}
+
+.btnLg:focus{
+background-color: #434cbf;
+color: white;
+border: 1px solid #434cbf;}
+.btnLg:hover{
+background-color: #434cbf;
+color: white;
+border: 1px solid #434cbf;}
+.active{
+background-color: #434cbf !important;
+color: white;
+border: 1px solid #434cbf;}
+
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;

@@ -98,8 +98,8 @@ https://www.tooplate.com/view/2115-marvel
             <div class="custom-btn-group mt-4">
               <a href="doc/CV.pdf" download="CV" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>
                 Mi CV</a>
-              <a href="doc/cv-documentado.pdf" download="CV" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>
-                Mi CV documentado</a>
+              <!-- <a href="doc/cv-documentado.pdf" download="CV" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>
+                Mi CV documentado</a> -->
               <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contáctame</a>
             </div>
           </div>
@@ -117,13 +117,18 @@ https://www.tooplate.com/view/2115-marvel
 
   <!-- PROJECTS -->
   <section class="project_area" id="portfolio">
-    <div class="container">
+    <div class="container d-flex flex-column align-items-center">
       <div class="main_title">
         <h2 class="white-color align">Portafolio</h2>
         <!-- <p>Estos son algunos proyectos que desarrollé en el Bootcamp de Laboratoria</p> -->
       </div>
-      <div class="projects_inner row">
-        <div class="col-lg-4 col-md-6 ">
+      <div class="btn-group m-4" id="btn-group" role="group" aria-label="Basic example">
+        <button id="javascript" type="button" class="btn btn-secondary btnLg active">Vanilla JS</button>
+        <button id="react" type="button" class="btn btn-secondary btnLg">React JS</button>
+        <button id="vue" type="button" class="btn btn-secondary btnLg">Vue JS</button>
+      </div>
+      <div id="projects-container" class="projects_inner row">
+        <!-- <div class="col-lg-4 col-md-6 ">
           <div class="feature_item">
             <a href="https://ayauri29.github.io/LIM010-data-lovers/src" target="_blank">
               <div class="projects_item">
@@ -303,7 +308,7 @@ https://www.tooplate.com/view/2115-marvel
               <a class="banner_btn_t mt-3" href="https://ayauri29.github.io/hackaton-users/"
                 target="_blank">Demo</a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
   </section>
@@ -595,5 +600,7 @@ https://www.tooplate.com/view/2115-marvel
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/custom.js"></script>
+  <script src="data/data.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
