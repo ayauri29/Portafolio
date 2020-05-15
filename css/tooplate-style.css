@@ -143,6 +143,7 @@ b, strong {
   transition: all 300ms linear 0s;
   background: #fff;
   margin-bottom: 30px;
+  height: 90%;
 }
 
 .feature_item_color{
