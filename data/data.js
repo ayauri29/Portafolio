@@ -11,7 +11,7 @@ const PROJECTS = [{
 },
 {
     "id": "2",
-    "code": "https://github.com/ayauri29/LgIM010-social-network",
+    "code": "https://github.com/ayauri29/LIM010-social-network",
     "demo": "https://ayauri29.github.io/LIM010-social-network/src/",
     "title": "MEET AND CODE",
     "description": "Red social para personas interesadas en la tecnología, donde de pueden publicar eventos tecnológicos.",
