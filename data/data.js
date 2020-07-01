@@ -11,7 +11,7 @@ const PROJECTS = [{
 },
 {
     "id": "2",
-    "code": "https://github.com/ayauri29/LIM010-social-network",
+    "code": "https://github.com/ayauri29/LgIM010-social-network",
     "demo": "https://ayauri29.github.io/LIM010-social-network/src/",
     "title": "MEET AND CODE",
     "description": "Red social para personas interesadas en la tecnología, donde de pueden publicar eventos tecnológicos.",
@@ -63,15 +63,15 @@ const PROJECTS = [{
     "tools": ["VUE", "PUG","NUXT"],
     "image": "https://user-images.githubusercontent.com/33959688/82074659-b8591100-96a0-11ea-837e-bd532c38a12a.png"
 },
-{
-    "id": "8",
-    "code": "https://github.com/ayauri29/hackaton-users",
-    "demo": "https://ayauri29.github.io/hackaton-users/",
-    "title": "MAKEUP STORE",
-    "description": "Plataforma que muestra información de un catálogo de maquillaje y permite añadir los productos a un carrito de compra.",
-    "tools": ["REACT", "FIREBASE"],
-    "image": "../images/project/react.png"
-},
+// {
+//     "id": "8",
+//     "code": "https://github.com/ayauri29/hackaton-users",
+//     "demo": "https://ayauri29.github.io/hackaton-users/",
+//     "title": "MAKEUP STORE",
+//     "description": "Plataforma que muestra información de un catálogo de maquillaje y permite añadir los productos a un carrito de compra.",
+//     "tools": ["REACT", "FIREBASE"],
+//     "image": "../images/project/react.png"
+// },
 {
     "id": "9",
     "code": "https://github.com/ayauri29/tic-tac-toe/",
